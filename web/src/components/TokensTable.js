@@ -98,7 +98,7 @@ const TokensTable = () => {
     if (nextLink) {
       nextUrl = nextLink + `/#/?settings={"key":"sk-${key}"}`;
     } else {
-      nextUrl = `https://chat.oneapi.pro/#/?settings={"key":"sk-${key}","url":"${serverAddress}"}`;
+      nextUrl = `https://chat.qvqai.asia/#/?settings={"key":"sk-${key}","url":"${serverAddress}"}`;
     }
 
     let url;
@@ -140,7 +140,7 @@ const TokensTable = () => {
     if (chatLink) {
       defaultUrl = chatLink + `/#/?settings={"key":"sk-${key}"}`;
     } else {
-      defaultUrl = `https://chat.oneapi.pro/#/?settings={"key":"sk-${key}","url":"${serverAddress}"}`;
+      defaultUrl = `https://chat.qvqai.asia/#/?settings={"key":"sk-${key}","url":"${serverAddress}"}`;
     }
     let url;
     switch (type) {
